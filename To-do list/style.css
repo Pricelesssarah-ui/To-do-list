@@ -1,0 +1,104 @@
+
+/*Main Body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+/*Main Container*/
+.main-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 2px 2px 10px 2px gray;
+}
+
+.container-box {
+    padding: 30px;  
+}
+
+
+/*Container Item1*/
+.container-item1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+li {
+    color: white;
+    background: black;
+    padding: 25px;
+    margin-bottom: 10px; 
+    list-style: none;
+}
+
+button {
+    float: right;
+    color: red;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+
+/*Container Item2*/
+.container-item2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+    width: 320px;
+}
+
+.btn-add {
+    color: white;
+    background: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .main-container {
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 80%;
+        text-align: center;
+       
+    }
+
+    li {
+       width: 100%;
+       padding: 30px;
+    }
+ 
+    button {
+        float: right;
+        padding-top: 5px;
+    }
+    
+    input {
+        height: 30px;
+        width: 200px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .btn-add {
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
